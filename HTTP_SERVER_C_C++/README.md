@@ -1,3 +1,5 @@
+https://g.co/gemini/share/ab27dac54480
+
 # HTTP Server in C/C++ — From Scratch
 
 Building an HTTP server from scratch, one day at a time.
