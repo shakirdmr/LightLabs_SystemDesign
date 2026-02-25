@@ -6,3 +6,4 @@ Building an HTTP server from scratch, one day at a time.
 
 - [Day 1 — Socket & File Descriptor](day1.md)
 - [Day 2 — Binding Socket to a Port](day2.md)
+- [Day 3 — listen() and accept()](day3.md)

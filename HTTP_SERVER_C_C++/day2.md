@@ -1,4 +1,3 @@
-
 # Day 2 — Binding Socket to a Port
 
 ## 🎯 Goal of Today
@@ -64,6 +63,18 @@ Host TO Network Short
 It converts your port number into correct format.
 
 Always use it for port.
+
+---
+
+# Headers Used
+
+| Header | Gives You |
+|---|---|
+| `<stdio.h>` | `printf()` |
+| `<string.h>` | `memset()` |
+| `<sys/socket.h>` | `socket()`, `bind()`, `struct sockaddr`, `AF_INET`, `SOCK_STREAM` |
+| `<netinet/in.h>` | `struct sockaddr_in`, `INADDR_ANY`, `htons()` |
+| `<unistd.h>` | `close()` |
 
 ---
 

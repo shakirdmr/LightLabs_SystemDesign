@@ -52,6 +52,16 @@ When we create a socket, Linux gives us back a small number called a **file desc
 
 ---
 
+### Headers Used
+
+| Header | Gives You |
+|---|---|
+| `<stdio.h>` | `printf()` |
+| `<sys/socket.h>` | `socket()`, `AF_INET`, `SOCK_STREAM` |
+| `<unistd.h>` | `close()` |
+
+---
+
 ### Code
 
 **[day1.c](day1.c)**

@@ -16,6 +16,8 @@ int main() {
 
     printf("Socket created successfully\n");
 
+
+    
     // Step 2: Create address structure
     struct sockaddr_in server_addr;
 
@@ -30,6 +32,8 @@ int main() {
 
     // Set port number (convert to network format)
     server_addr.sin_port = htons(5001);
+
+
 
     // Step 3: Bind socket to IP + Port
     if (bind(server_fd, (struct sockaddr*)&server_addr, sizeof(server_addr)) < 0) {
