@@ -1,6 +1,3 @@
-Here is your **copy-paste ready `day2.md`** 👇
-
----
 
 # Day 2 — Binding Socket to a Port
 
